@@ -1,5 +1,10 @@
 <?php
-$conn = mysqli_connect(
+
+
+
+
+
+/*$conn = mysqli_connect(
     'localhost',
     'root',
     '',
@@ -9,4 +14,5 @@ $conn = mysqli_connect(
 if (isset($conn)) {
     echo 'DB is Conectado';
 }
+*/
 ?>
