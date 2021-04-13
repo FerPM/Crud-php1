@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 /* Conexion  a la base de datos en mysql */
 $conn = mysqli_connect(
     'localhost',
@@ -9,10 +11,5 @@ $conn = mysqli_connect(
 );
 
 
-
-/*
-if (isset($conn)) {
-    echo 'DB is Conectado';
-}*/
 
 ?>
